@@ -1,4 +1,4 @@
-module github.com/flant/shell-operator
+module github.com/akaitux/shell-operator
 
 go 1.19
 
