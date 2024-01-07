@@ -3,8 +3,8 @@ package shell_operator
 import (
 	"net/http"
 
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/metric_storage"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
 )
 
 func (op *ShellOperator) setupHookMetricStorage() {

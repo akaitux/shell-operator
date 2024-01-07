@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	klient "github.com/akaitux/kube-client/client"
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/kube/object_patch"
-	"github.com/flant/shell-operator/pkg/metric_storage"
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/kube/object_patch"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 var (

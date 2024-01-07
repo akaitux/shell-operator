@@ -7,10 +7,10 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 func Test_HookMetadata_Access(t *testing.T) {

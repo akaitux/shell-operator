@@ -10,9 +10,9 @@ import (
 	. "github.com/onsi/gomega"
 	"sigs.k8s.io/yaml"
 
-	"github.com/flant/shell-operator/pkg/hook/task_metadata"
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	"github.com/akaitux/shell-operator/pkg/hook/task_metadata"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 func Test_Sort_ByNamespaceAndName(t *testing.T) {

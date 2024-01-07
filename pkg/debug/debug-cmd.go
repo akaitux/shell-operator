@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/flant/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/app"
 )
 
 var (

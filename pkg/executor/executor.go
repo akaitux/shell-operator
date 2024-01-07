@@ -9,8 +9,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/app"
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	"github.com/akaitux/shell-operator/pkg/app"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type CmdUsage struct {

@@ -8,8 +8,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/flant/shell-operator/pkg/app"
-	utils "github.com/flant/shell-operator/pkg/utils/file"
+	"github.com/akaitux/shell-operator/pkg/app"
+	utils "github.com/akaitux/shell-operator/pkg/utils/file"
 )
 
 type Client struct {

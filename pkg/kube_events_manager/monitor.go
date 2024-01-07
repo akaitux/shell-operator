@@ -8,9 +8,9 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	klient "github.com/akaitux/kube-client/client"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	"github.com/flant/shell-operator/pkg/metric_storage"
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type Monitor interface {

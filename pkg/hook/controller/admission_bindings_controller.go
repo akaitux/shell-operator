@@ -3,10 +3,10 @@ package controller
 import (
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	. "github.com/flant/shell-operator/pkg/webhook/admission/types"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	. "github.com/akaitux/shell-operator/pkg/webhook/admission/types"
 )
 
 // AdmissionBindingToWebhookLink is a link between a hook and a webhook configuration.

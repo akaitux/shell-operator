@@ -5,11 +5,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	"github.com/flant/shell-operator/pkg/schedule_manager"
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/schedule_manager"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 type managerEventsHandlerConfig struct {

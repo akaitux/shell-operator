@@ -14,7 +14,7 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 
 	klient "github.com/akaitux/kube-client/client"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 func Test_MainKubeEventsManager_Run(t *testing.T) {

@@ -7,12 +7,12 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/hook/controller"
-	"github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	. "github.com/flant/shell-operator/pkg/webhook/admission/types"
-	"github.com/flant/shell-operator/pkg/webhook/conversion"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/hook/controller"
+	"github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	. "github.com/akaitux/shell-operator/pkg/webhook/admission/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/conversion"
 )
 
 func newHookManager(t *testing.T, testdataDir string) *hookManager {

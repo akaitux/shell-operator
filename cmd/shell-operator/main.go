@@ -9,11 +9,11 @@ import (
 	"gopkg.in/alecthomas/kingpin.v2"
 
 	"github.com/akaitux/kube-client/klogtologrus"
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/debug"
-	"github.com/flant/shell-operator/pkg/jq"
-	shell_operator "github.com/flant/shell-operator/pkg/shell-operator"
-	utils_signal "github.com/flant/shell-operator/pkg/utils/signal"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/debug"
+	"github.com/akaitux/shell-operator/pkg/jq"
+	shell_operator "github.com/akaitux/shell-operator/pkg/shell-operator"
+	utils_signal "github.com/akaitux/shell-operator/pkg/utils/signal"
 )
 
 func main() {

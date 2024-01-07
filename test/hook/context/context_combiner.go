@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/flant/shell-operator/pkg/hook/binding_context"
-	"github.com/flant/shell-operator/pkg/hook/controller"
-	"github.com/flant/shell-operator/pkg/hook/task_metadata"
-	"github.com/flant/shell-operator/pkg/hook/types"
-	shell_operator "github.com/flant/shell-operator/pkg/shell-operator"
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	"github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	"github.com/akaitux/shell-operator/pkg/hook/controller"
+	"github.com/akaitux/shell-operator/pkg/hook/task_metadata"
+	"github.com/akaitux/shell-operator/pkg/hook/types"
+	shell_operator "github.com/akaitux/shell-operator/pkg/shell-operator"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 // TestTaskType is a type for tasks created by ContextCombiner.

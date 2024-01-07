@@ -6,10 +6,10 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	. "github.com/flant/shell-operator/pkg/hook/task_metadata"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/task"
-	utils "github.com/flant/shell-operator/pkg/utils/file"
+	. "github.com/akaitux/shell-operator/pkg/hook/task_metadata"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/task"
+	utils "github.com/akaitux/shell-operator/pkg/utils/file"
 )
 
 func Test_Operator_startup_tasks(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 // asQueueNames implements sort.Interface for array of queue names.

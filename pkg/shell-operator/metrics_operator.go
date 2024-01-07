@@ -3,8 +3,8 @@ package shell_operator
 import (
 	"net/http"
 
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/metric_storage"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
 )
 
 // setupMetricStorage creates and initializes metrics storage for built-in operator metrics

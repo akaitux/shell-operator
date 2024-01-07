@@ -8,8 +8,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
 	. "github.com/flant/libjq-go"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 func JqEqual(t *testing.T, input []byte, program string, expected string) {

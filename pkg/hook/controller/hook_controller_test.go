@@ -7,11 +7,11 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/akaitux/kube-client/fake"
-	"github.com/flant/shell-operator/pkg/hook/binding_context"
-	"github.com/flant/shell-operator/pkg/hook/config"
-	"github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	types2 "github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	"github.com/akaitux/shell-operator/pkg/hook/config"
+	"github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	types2 "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 // Test updating snapshots for combined contexts.

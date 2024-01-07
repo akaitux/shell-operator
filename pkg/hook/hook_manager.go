@@ -10,16 +10,16 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/executor"
-	"github.com/flant/shell-operator/pkg/hook/controller"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	"github.com/flant/shell-operator/pkg/schedule_manager"
-	utils_file "github.com/flant/shell-operator/pkg/utils/file"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	. "github.com/flant/shell-operator/pkg/webhook/admission/types"
-	"github.com/flant/shell-operator/pkg/webhook/conversion"
+	"github.com/akaitux/shell-operator/pkg/executor"
+	"github.com/akaitux/shell-operator/pkg/hook/controller"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/schedule_manager"
+	utils_file "github.com/akaitux/shell-operator/pkg/utils/file"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	. "github.com/akaitux/shell-operator/pkg/webhook/admission/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/conversion"
 )
 
 type HookManager interface {

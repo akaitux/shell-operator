@@ -5,11 +5,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 // KubernetesBindingToMonitorLink is a link between a binding config and a Monitor.

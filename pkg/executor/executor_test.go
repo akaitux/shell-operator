@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/flant/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/app"
 )
 
 func TestRunAndLogLines(t *testing.T) {

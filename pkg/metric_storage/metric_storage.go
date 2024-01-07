@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/metric_storage/operation"
-	"github.com/flant/shell-operator/pkg/metric_storage/vault"
-	. "github.com/flant/shell-operator/pkg/utils/labels"
+	"github.com/akaitux/shell-operator/pkg/metric_storage/operation"
+	"github.com/akaitux/shell-operator/pkg/metric_storage/vault"
+	. "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 const (

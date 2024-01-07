@@ -3,7 +3,7 @@ package admission
 import (
 	v1 "k8s.io/api/admissionregistration/v1"
 
-	"github.com/flant/shell-operator/pkg/utils/string_helper"
+	"github.com/akaitux/shell-operator/pkg/utils/string_helper"
 )
 
 // ConfigurationId is a first element in Path field for each Webhook.

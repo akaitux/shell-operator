@@ -6,17 +6,17 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/config"
-	"github.com/flant/shell-operator/pkg/debug"
-	"github.com/flant/shell-operator/pkg/hook"
-	"github.com/flant/shell-operator/pkg/jq"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	"github.com/flant/shell-operator/pkg/schedule_manager"
-	"github.com/flant/shell-operator/pkg/task/queue"
-	utils "github.com/flant/shell-operator/pkg/utils/file"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	"github.com/flant/shell-operator/pkg/webhook/conversion"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/config"
+	"github.com/akaitux/shell-operator/pkg/debug"
+	"github.com/akaitux/shell-operator/pkg/hook"
+	"github.com/akaitux/shell-operator/pkg/jq"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	"github.com/akaitux/shell-operator/pkg/schedule_manager"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
+	utils "github.com/akaitux/shell-operator/pkg/utils/file"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	"github.com/akaitux/shell-operator/pkg/webhook/conversion"
 )
 
 // Init initialize logging, ensures directories and creates

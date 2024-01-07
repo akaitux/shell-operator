@@ -6,8 +6,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/api/admission/v1"
 
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 // BindingContext contains information about event for hook

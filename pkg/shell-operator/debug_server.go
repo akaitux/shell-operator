@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/flant/shell-operator/pkg/config"
-	"github.com/flant/shell-operator/pkg/debug"
-	"github.com/flant/shell-operator/pkg/task/dump"
+	"github.com/akaitux/shell-operator/pkg/config"
+	"github.com/akaitux/shell-operator/pkg/debug"
+	"github.com/akaitux/shell-operator/pkg/task/dump"
 )
 
 // RunDefaultDebugServer initialized and run default debug server on unix and http sockets

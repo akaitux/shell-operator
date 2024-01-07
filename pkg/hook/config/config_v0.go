@@ -6,10 +6,10 @@ import (
 	"gopkg.in/robfig/cron.v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	. "github.com/flant/shell-operator/pkg/schedule_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/schedule_manager/types"
 )
 
 type HookConfigV0 struct {

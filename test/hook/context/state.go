@@ -7,8 +7,8 @@ import (
 
 	"github.com/akaitux/kube-client/fake"
 	"github.com/akaitux/kube-client/manifest"
-	kubeeventsmanager "github.com/flant/shell-operator/pkg/kube_events_manager"
-	"github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	kubeeventsmanager "github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 // if we use default, then we are not able to emulate global resources due to fake cluster limitations

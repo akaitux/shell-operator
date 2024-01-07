@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/flant/shell-operator/pkg/executor"
+	"github.com/akaitux/shell-operator/pkg/executor"
 )
 
 // jqExec is a subprocess implementation of the jq filtering.

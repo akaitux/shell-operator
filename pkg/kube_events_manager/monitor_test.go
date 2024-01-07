@@ -11,7 +11,7 @@ import (
 
 	"github.com/akaitux/kube-client/fake"
 	"github.com/akaitux/kube-client/manifest"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
 )
 
 func Test_Monitor_should_handle_dynamic_ns_events(t *testing.T) {

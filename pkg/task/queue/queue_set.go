@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flant/shell-operator/pkg/metric_storage"
-	"github.com/flant/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
+	"github.com/akaitux/shell-operator/pkg/task"
 )
 
 const MainQueueName = "main"

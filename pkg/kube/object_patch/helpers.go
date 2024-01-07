@@ -12,8 +12,8 @@ import (
 	k8yaml "sigs.k8s.io/yaml"
 
 	"github.com/akaitux/kube-client/manifest"
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/jq"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/jq"
 )
 
 func unmarshalFromJSONOrYAML(specs []byte) ([]OperationSpec, error) {

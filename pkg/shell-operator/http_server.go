@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/flant/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/app"
 )
 
 type baseHTTPServer struct {

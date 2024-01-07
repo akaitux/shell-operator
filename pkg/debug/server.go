@@ -14,8 +14,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	utils "github.com/flant/shell-operator/pkg/utils/file"
-	structured_logger "github.com/flant/shell-operator/pkg/utils/structured-logger"
+	utils "github.com/akaitux/shell-operator/pkg/utils/file"
+	structured_logger "github.com/akaitux/shell-operator/pkg/utils/structured-logger"
 )
 
 type Server struct {

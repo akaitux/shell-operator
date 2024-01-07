@@ -11,14 +11,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/flant/shell-operator/pkg/app"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	. "github.com/flant/shell-operator/pkg/schedule_manager/types"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	"github.com/flant/shell-operator/pkg/webhook/conversion"
-	"github.com/flant/shell-operator/pkg/webhook/validating/validation"
+	"github.com/akaitux/shell-operator/pkg/app"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/schedule_manager/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	"github.com/akaitux/shell-operator/pkg/webhook/conversion"
+	"github.com/akaitux/shell-operator/pkg/webhook/validating/validation"
 )
 
 type HookConfigV1 struct {

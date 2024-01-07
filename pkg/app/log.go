@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/flant/shell-operator/pkg/config"
+	"github.com/akaitux/shell-operator/pkg/config"
 )
 
 // Use info level with timestamps and a text output by default

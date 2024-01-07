@@ -1,14 +1,14 @@
 package controller
 
 import (
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
-	. "github.com/flant/shell-operator/pkg/hook/types"
-	"github.com/flant/shell-operator/pkg/kube_events_manager"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	"github.com/flant/shell-operator/pkg/schedule_manager"
-	"github.com/flant/shell-operator/pkg/webhook/admission"
-	. "github.com/flant/shell-operator/pkg/webhook/admission/types"
-	"github.com/flant/shell-operator/pkg/webhook/conversion"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/schedule_manager"
+	"github.com/akaitux/shell-operator/pkg/webhook/admission"
+	. "github.com/akaitux/shell-operator/pkg/webhook/admission/types"
+	"github.com/akaitux/shell-operator/pkg/webhook/conversion"
 )
 
 type BindingExecutionInfo struct {

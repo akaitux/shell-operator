@@ -15,7 +15,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	structured_logger "github.com/flant/shell-operator/pkg/utils/structured-logger"
+	structured_logger "github.com/akaitux/shell-operator/pkg/utils/structured-logger"
 )
 
 type WebhookHandler struct {

@@ -6,7 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	klient "github.com/akaitux/kube-client/client"
-	"github.com/flant/shell-operator/pkg/webhook/server"
+	"github.com/akaitux/shell-operator/pkg/webhook/server"
 )
 
 // DefaultConfigurationId is a ConfigurationId for ValidatingWebhookConfiguration/MutatingWebhookConfiguration

@@ -6,7 +6,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/robfig/cron.v2"
 
-	. "github.com/flant/shell-operator/pkg/schedule_manager/types"
+	. "github.com/akaitux/shell-operator/pkg/schedule_manager/types"
 )
 
 type ScheduleManager interface {

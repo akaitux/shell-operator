@@ -1,7 +1,7 @@
 package conversion
 
 import (
-	"github.com/flant/shell-operator/pkg/utils/string_helper"
+	"github.com/akaitux/shell-operator/pkg/utils/string_helper"
 )
 
 // WebhookConfig

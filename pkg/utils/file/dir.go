@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/flant/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/app"
 )
 
 func RequireExistingDirectory(inDir string) (dir string, err error) {

@@ -10,10 +10,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/flant/shell-operator/pkg/app"
-	"github.com/flant/shell-operator/pkg/jq"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	utils_checksum "github.com/flant/shell-operator/pkg/utils/checksum"
+	"github.com/akaitux/shell-operator/pkg/app"
+	"github.com/akaitux/shell-operator/pkg/jq"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	utils_checksum "github.com/akaitux/shell-operator/pkg/utils/checksum"
 )
 
 // applyFilter filters object json representation with jq expression, calculate checksum

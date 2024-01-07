@@ -7,8 +7,8 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/flant/shell-operator/pkg/metric_storage"
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	"github.com/akaitux/shell-operator/pkg/metric_storage"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type WatchErrorHandler struct {

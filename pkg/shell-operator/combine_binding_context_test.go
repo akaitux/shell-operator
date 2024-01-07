@@ -6,12 +6,12 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/flant/shell-operator/pkg/hook/binding_context"
-	. "github.com/flant/shell-operator/pkg/hook/task_metadata"
-	"github.com/flant/shell-operator/pkg/hook/types"
-	. "github.com/flant/shell-operator/pkg/kube_events_manager/types"
-	"github.com/flant/shell-operator/pkg/task"
-	"github.com/flant/shell-operator/pkg/task/queue"
+	"github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/task_metadata"
+	"github.com/akaitux/shell-operator/pkg/hook/types"
+	. "github.com/akaitux/shell-operator/pkg/kube_events_manager/types"
+	"github.com/akaitux/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task/queue"
 )
 
 func Test_CombineBindingContext_MultipleHooks(t *testing.T) {

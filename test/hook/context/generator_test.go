@@ -6,7 +6,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
 )
 
 func parseContexts(contexts string) []BindingContext {

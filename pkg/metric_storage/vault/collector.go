@@ -7,7 +7,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	. "github.com/flant/shell-operator/pkg/utils/labels"
+	. "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type ConstMetricCollector interface {

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	utils_file "github.com/flant/shell-operator/pkg/utils/file"
+	utils_file "github.com/akaitux/shell-operator/pkg/utils/file"
 )
 
 // ChooseExistedDirectoryPath returns first non-empty existed directory path from arguments.

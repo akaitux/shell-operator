@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 
 	klient "github.com/akaitux/kube-client/client"
-	"github.com/flant/shell-operator/pkg/kube/object_patch"
+	"github.com/akaitux/shell-operator/pkg/kube/object_patch"
 )
 
 var (

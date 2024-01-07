@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"golang.org/x/time/rate"
 
-	"github.com/flant/shell-operator/pkg/hook/config"
-	. "github.com/flant/shell-operator/pkg/hook/types"
+	"github.com/akaitux/shell-operator/pkg/hook/config"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
 )
 
 func Test_Hook_SafeName(t *testing.T) {

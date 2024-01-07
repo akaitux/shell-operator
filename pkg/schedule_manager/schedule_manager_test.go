@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/flant/shell-operator/pkg/schedule_manager/types"
+	"github.com/akaitux/shell-operator/pkg/schedule_manager/types"
 )
 
 func Test_ScheduleManager_Add(t *testing.T) {

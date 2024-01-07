@@ -13,8 +13,8 @@ import (
 	v1 "k8s.io/api/admission/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	structured_logger "github.com/flant/shell-operator/pkg/utils/structured-logger"
-	. "github.com/flant/shell-operator/pkg/webhook/admission/types"
+	structured_logger "github.com/akaitux/shell-operator/pkg/utils/structured-logger"
+	. "github.com/akaitux/shell-operator/pkg/webhook/admission/types"
 )
 
 type AdmissionEventHandlerFn func(event AdmissionEvent) (*AdmissionResponse, error)

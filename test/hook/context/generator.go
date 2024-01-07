@@ -9,12 +9,12 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/akaitux/kube-client/fake"
-	"github.com/flant/shell-operator/pkg/hook"
-	. "github.com/flant/shell-operator/pkg/hook/binding_context"
-	"github.com/flant/shell-operator/pkg/hook/controller"
-	"github.com/flant/shell-operator/pkg/hook/types"
-	kubeeventsmanager "github.com/flant/shell-operator/pkg/kube_events_manager"
-	schedulemanager "github.com/flant/shell-operator/pkg/schedule_manager"
+	"github.com/akaitux/shell-operator/pkg/hook"
+	. "github.com/akaitux/shell-operator/pkg/hook/binding_context"
+	"github.com/akaitux/shell-operator/pkg/hook/controller"
+	"github.com/akaitux/shell-operator/pkg/hook/types"
+	kubeeventsmanager "github.com/akaitux/shell-operator/pkg/kube_events_manager"
+	schedulemanager "github.com/akaitux/shell-operator/pkg/schedule_manager"
 )
 
 func init() {

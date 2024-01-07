@@ -5,7 +5,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	. "github.com/flant/shell-operator/pkg/hook/types"
+	. "github.com/akaitux/shell-operator/pkg/hook/types"
 )
 
 var validBindingTypes = []BindingType{OnStartup, Schedule, OnKubernetesEvent, KubernetesValidating, KubernetesMutating, KubernetesConversion}

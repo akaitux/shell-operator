@@ -1,6 +1,6 @@
 package conversion
 
-import "github.com/flant/shell-operator/pkg/webhook/server"
+import "github.com/akaitux/shell-operator/pkg/webhook/server"
 
 type WebhookSettings struct {
 	server.Settings

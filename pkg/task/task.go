@@ -7,7 +7,7 @@ import (
 
 	uuid "github.com/gofrs/uuid/v5"
 
-	utils "github.com/flant/shell-operator/pkg/utils/labels"
+	utils "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type MetadataDescriptable interface {

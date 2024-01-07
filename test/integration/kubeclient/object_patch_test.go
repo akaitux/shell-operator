@@ -17,8 +17,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/yaml"
 
-	"github.com/flant/shell-operator/pkg/kube/object_patch"
-	. "github.com/flant/shell-operator/test/integration/suite"
+	"github.com/akaitux/shell-operator/pkg/kube/object_patch"
+	. "github.com/akaitux/shell-operator/test/integration/suite"
 )
 
 const (

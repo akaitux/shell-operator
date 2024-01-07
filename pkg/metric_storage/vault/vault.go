@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/flant/shell-operator/pkg/utils/labels"
+	. "github.com/akaitux/shell-operator/pkg/utils/labels"
 )
 
 type GroupedVault struct {

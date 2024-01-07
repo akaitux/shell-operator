@@ -12,7 +12,7 @@ func TestApplyFilter(t *testing.T) {
 	t.Run("filter func with error", func(t *testing.T) {
 		uns := &unstructured.Unstructured{Object: map[string]interface{}{"foo": "bar"}}
 		_, err := applyFilter("", filterFuncWithError, uns)
-		assert.EqualError(t, err, "filterFn (github.com/flant/shell-operator/pkg/kube_events_manager.filterFuncWithError) contains an error: invalid character 'a' looking for beginning of value")
+		assert.EqualError(t, err, "filterFn (github.com/akaitux/shell-operator/pkg/kube_events_manager.filterFuncWithError) contains an error: invalid character 'a' looking for beginning of value")
 	})
 }
 

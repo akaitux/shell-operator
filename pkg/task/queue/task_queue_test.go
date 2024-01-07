@@ -9,7 +9,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/flant/shell-operator/pkg/task"
+	"github.com/akaitux/shell-operator/pkg/task"
 )
 
 func DumpTaskIds(q *TaskQueue) string {
