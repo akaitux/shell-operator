@@ -3,7 +3,7 @@ module github.com/akaitux/shell-operator
 go 1.19
 
 require (
-	github.com/akaitux/kube-client v1.9.1
+	github.com/akaitux/kube-client v1.9.2
 	github.com/flant/libjq-go v1.6.3-0.20201126171326-c46a40ff22ee // branch: master
 	github.com/go-chi/chi/v5 v5.0.10
 	github.com/go-openapi/spec v0.19.8

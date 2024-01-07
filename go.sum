@@ -3,8 +3,8 @@ github.com/PuerkitoBio/purell v1.1.0/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbt
 github.com/PuerkitoBio/purell v1.1.1/go.mod h1:c11w/QuzBsJSee3cPx9rAFu61PvFxuPbtSwDGJws/X0=
 github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578/go.mod h1:uGdkoq3SwY9Y+13GIhn11/XLaGBb4BfwItxLd5jeuXE=
 github.com/agnivade/levenshtein v1.0.1/go.mod h1:CURSv5d9Uaml+FovSIICkLbAUZ9S4RqaHDIsdSBg7lM=
-github.com/akaitux/kube-client v1.9.1 h1:r7hwyKOIXv4BxLdSNpz/+NjlW6thguvX+cYW+8xp29U=
-github.com/akaitux/kube-client v1.9.1/go.mod h1:OveMOiL3kMPBZKBCs9o34FP1uGv6Yb4SUo96nLzjOWw=
+github.com/akaitux/kube-client v1.9.2 h1:gXw7X8Nis/+5R2OGVzYUryI8zMK1NGgTJbOkltU1+nc=
+github.com/akaitux/kube-client v1.9.2/go.mod h1:OveMOiL3kMPBZKBCs9o34FP1uGv6Yb4SUo96nLzjOWw=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 h1:s6gZFSlWYmbqAuRjVTiNNhvNRfY2Wxp9nhfyel4rklc=
