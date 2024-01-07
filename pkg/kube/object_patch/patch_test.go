@@ -13,8 +13,8 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/flant/kube-client/fake"
-	"github.com/flant/kube-client/manifest"
+	"github.com/akaitux/kube-client/fake"
+	"github.com/akaitux/kube-client/manifest"
 )
 
 func mustReadFile(t *testing.T, filePath string) []byte {

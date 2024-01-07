@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	klient "github.com/flant/kube-client/client"
+	klient "github.com/akaitux/kube-client/client"
 	"github.com/flant/shell-operator/pkg/kube/object_patch"
 )
 

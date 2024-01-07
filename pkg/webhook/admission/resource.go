@@ -8,7 +8,7 @@ import (
 	v1 "k8s.io/api/admissionregistration/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	klient "github.com/flant/kube-client/client"
+	klient "github.com/akaitux/kube-client/client"
 )
 
 type WebhookResourceOptions struct {

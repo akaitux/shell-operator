@@ -5,7 +5,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	klient "github.com/flant/kube-client/client"
+	klient "github.com/akaitux/kube-client/client"
 	"github.com/flant/shell-operator/pkg/webhook/server"
 )
 

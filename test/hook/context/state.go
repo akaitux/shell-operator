@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/flant/kube-client/fake"
-	"github.com/flant/kube-client/manifest"
+	"github.com/akaitux/kube-client/fake"
+	"github.com/akaitux/kube-client/manifest"
 	kubeeventsmanager "github.com/flant/shell-operator/pkg/kube_events_manager"
 	"github.com/flant/shell-operator/pkg/kube_events_manager/types"
 )

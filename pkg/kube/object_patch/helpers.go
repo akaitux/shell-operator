@@ -11,7 +11,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	k8yaml "sigs.k8s.io/yaml"
 
-	"github.com/flant/kube-client/manifest"
+	"github.com/akaitux/kube-client/manifest"
 	"github.com/flant/shell-operator/pkg/app"
 	"github.com/flant/shell-operator/pkg/jq"
 )
